@@ -54,7 +54,7 @@ function Home() {
               <HealthNews />
               <ViewAllPostsButton />
               <Footer />
-              <Reviews />
+              <Reviews  reviews={reviews}/>
               <Footer2 />
               
          
