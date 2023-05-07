@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Navbar2 from './Navbar2';
-import Nav from './Herocontainer'
 import Hero from './Herocontainer'
 import Mainbody from './Herocontainer'
 import Section2 from '../Text';
