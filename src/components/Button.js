@@ -2,7 +2,7 @@ import React from 'react';
 
 function ViewAllDoctorsButton() {
   return (
-    <div className="text-center p-5">
+    <div className="text-center py-5">
       <button type="button" className="btn btn-primary btn-lg rounded-0">
         VIEW ALL DOCTORS
       </button>
@@ -11,3 +11,4 @@ function ViewAllDoctorsButton() {
 }
 
 export default ViewAllDoctorsButton;
+

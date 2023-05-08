@@ -13,7 +13,7 @@ function Hero() {
 
 function MainCard() {
   return (
-    <div className="card text-center mainCard" style={{ width: "390px", height: "390px", backgroundColor: "#51a9f1" }}>
+    <div className="card text-center mainCard" style={{ backgroundColor: "#51a9f1" }}>
       <div className="card-body mt-5">
         <img width="50px" src="https://themeatelier.net/site-templates/clinica/img/icons/icon-emergency-case.png" alt="" />
         <h6 className="card-title fs-5 mt-1">MEDICAL SERVICES</h6>
@@ -26,9 +26,7 @@ function MainCard() {
 
 function Card(props) {
   return (
-    <div className="card text-center" style={{
-      width: "390px", height: "390px", backgroundColor: "#51a9f1"
-    }}>
+    <div className="card text-center" style={{ backgroundColor: "#51a9f1" }}>
       <div className="card-body mt-5" >
         <img width="50px" src={props.imageSrc} alt={props.imageAlt} />
         <h6 className="card-title fs-5 mt-1">{props.cardTitle}</h6>
@@ -56,6 +54,22 @@ export default function App() {
     <>
       <Hero />
       <MainBody />
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .hero h1 {
+            font-size: 36px;
+            text-align: center;
+          }
+          .cardContainer {
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+          .card {
+            width: 80%;
+            margin-bottom: 20px;
+          }
+        }
+      `}</style>
     </>
   );
 }

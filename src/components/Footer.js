@@ -5,7 +5,7 @@ function Footer() {
     <section className="footer">
       <div className="container last2Con">
         <div className="row">
-          <div className="col-sm-4 pt-5 mt-5">
+          <div className="col-md-4 pt-5 mt-5">
             <div className="single-footer-widget">
               <h5 className="pt-1 pb-3 fw-bolder">ABOUT CLINICA</h5>
               <p className="pt-1">
@@ -46,7 +46,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-sm-4 pt-5 mt-5">
+          <div className="col-md-4 pt-5 mt-5">
             <div className="single-footer-widget ">
               <h5 className="pt-1 pb-3 fw-bolder">MEDICAL DEPARTMENTS</h5>
               <ul className="list-unstyled ">
@@ -78,7 +78,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-sm-4 pt-5 mt-5">
+          <div className="col-md-4 pt-5 mt-5">
             <div className="single-footer-widget">
               <h5 className="pt-1 pb-3 fw-bolder">LATEST HEALTH TIPS</h5>
               <ul className="list-unstyled">

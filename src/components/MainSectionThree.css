@@ -1,0 +1,24 @@
+/* Style for screens wider than 768px */
+@media only screen and (min-width: 768px) {
+    .mainSec3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .sec3 {
+      width: 50%;
+      margin: 0 10px;
+    }
+  
+    .vartical-span {
+      width: 1px;
+      height: 100%;
+      background-color: #ccc;
+    }
+  }
+  
+  /* Style for screens smaller than 768px */
+  @media only screen and (max-width: 767px) {
+    .mainSec

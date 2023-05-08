@@ -2,8 +2,8 @@ import React from "react";
 
 function MainSectionThree() {
   return (
-    <div className="mainSec3 container d-flex mb-5 pb-5">
-      <div className="sec3 mt-5 container">
+    <div className="mainSec3 container-md container-lg d-flex flex-wrap mb-5 pb-5">
+      <div className="sec3 mt-5 container-md container-lg">
         <h6 className="fw-bold cardhv">EASY APPOINTMENTS</h6>
         <p className="mt-4 mb-4">
           But I must explain to you how all this mistaken idea of denouncing
@@ -23,9 +23,9 @@ function MainSectionThree() {
         <h6 className="fw-bold cardhv">LEARN MORE &rarr;</h6>
       </div>
 
-      <div className="vartical-span"></div>
+      <div className="vartical-span d-md-none d-lg-block"></div>
 
-      <div className="sec3 mt-5 container ">
+      <div className="sec3 mt-5 container-md container-lg">
         <h6 className="fw-bold cardhv">BEST DOCTORS TEAM</h6>
         <p className="mt-4 mb-4">
           But I must explain to you how all this mistaken idea of denouncing
@@ -49,3 +49,4 @@ function MainSectionThree() {
 }
 
 export default MainSectionThree;
+

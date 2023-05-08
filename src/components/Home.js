@@ -42,7 +42,6 @@ function Home() {
     return (
         <>    <Navbar2 />
               <Hero />
-              <Mainbody />
               <Section2 />
               <MainSectionThree />
               <VideoSection />
