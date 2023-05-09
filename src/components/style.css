@@ -1,197 +1,189 @@
 body {
-    font-family: sans-serif;
-    overflow-x: hidden;
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
 .navContainer {
-    background-color: #51a9f1;
+  background-color: #51a9f1;
 }
 
 .input-form input {
-    height: 40px; 
-    width: 218px;
-    color: #4c4c4c;
-    border: none;
-    border-radius: 0px;
+  height: 40px;
+  width: 218px;
+  color: #4c4c4c;
+  border: none;
+  border-radius: 0px;
 }
 
 ul li {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .hero {
-   width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-image: url('https://themeatelier.net/site-templates/clinica/img/hero/hero-bg.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("https://themeatelier.net/site-templates/clinica/img/hero/hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-
 .card h6 {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 20px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 .card p {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 14px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
 }
 
-.cardContainer button{
-    border: 1px solid #ffffff;
-    border-radius: 0px;
-    padding: 12px 35px;
-    text-transform: uppercase;
+.cardContainer button {
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  padding: 12px 35px;
+  text-transform: uppercase;
 }
 
 .mainCard {
-    border-top: 30px solid #44a3f1;
-    margin-top: -36px;
-    box-shadow: 0px 8px 8px 6px rgb(0 0 0 / 8%);
-    z-index: 1;
-    position: relative;
+  border-top: 30px solid #44a3f1;
+  margin-top: -36px;
+  box-shadow: 0px 8px 8px 6px rgb(0 0 0 / 8%);
+  z-index: 1;
+  position: relative;
 }
 
 .cardContainer {
-    margin-top: -156px;
-    box-shadow: 0px 8px 8px 6px rgb(0 0 0 / 8%);
-    z-index: 1;
-    position: relative;
+  margin-top: -156px;
+  box-shadow: 0px 8px 8px 6px rgb(0 0 0 / 8%);
+  z-index: 1;
+  position: relative;
 }
 
 .sec2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .sec2-1 h2 {
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    color: #44a3f1;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: #44a3f1;
 }
 
 .sec2-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-
 .sec3 h6 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .vertical-span {
-    border-left: 6px solid blue;
-      height: 200px;
+  border-left: 6px solid blue;
+  height: 200px;
 }
 
 .navContainer {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .video-sec {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-image: url('https://themeatelier.net/site-templates/clinica/img/video/video-bg.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: 0.5;
-
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("https://themeatelier.net/site-templates/clinica/img/video/video-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
 }
-.activedot{
-    color: green;
+.activedot {
+  color: green;
 }
-.reddot{
-    color: red;
+.reddot {
+  color: red;
 }
-.better{
-    background-image: url("https://img.freepik.com/premium-photo/doctor-hold-icon-health-electronic-medical-record-interface-digital-healthcare-network_34200-712.jpg?w=2000");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 84vh;
-    width: 100%;
+.better {
+  background-image: url("https://img.freepik.com/premium-photo/doctor-hold-icon-health-electronic-medical-record-interface-digital-healthcare-network_34200-712.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 84vh;
+  width: 100%;
 }
 .row {
-    margin-right: -15px;
-    margin-left: -15px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .contact {
-    background-color: #44a3f1;
-    height: 75vh;
-    
+  background-color: #44a3f1;
+  height: 75vh;
 }
 .cardhv:hover {
-    transition: 0.3s;
-   color:  #44a3f1;
-   cursor: pointer;
-  }
-.last2Con{
-    height: 75vh;
+  transition: 0.3s;
+  color: #44a3f1;
+  cursor: pointer;
 }
-  
-.map{
-    left: 400px;
-    bottom: 300px;
+.last2Con {
+  height: 75vh;
 }
 
+.map {
+  left: 400px;
+  bottom: 300px;
+}
 
 .testimonial-card .card-up {
-    height: 120px;
-    overflow: hidden;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-  .testimonial-card .avatar {
-    width: 110px;
-    margin-top: -60px;
-    overflow: hidden;
-    border: 3px solid #fff;
-    border-radius: 50%;
-  }
-
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
 
 @media only screen and (max-width: 990px) {
-    .map {
-display: none;
-    }
+  .map {
+    display: none;
   }
-  @media screen and (max-width: 600px){
-
-.footer{
-    position: fixed;
 }
-    .better{
-        font-size: small;
-    }
-   .card-title{
-    font-size: small;
-   }
+@media screen and (max-width: 600px) {
+  .footer {
+    position: fixed;
   }
+  .better {
+    font-size: small;
+  }
+  .card-title {
+    font-size: small;
+  }
+}

@@ -36,11 +36,11 @@ function HealthNews() {
                   denouncing pleasure and praising pain was i born and will give
                   you a complete account more ...
                 </p>
-                <a href="#">
+                <span>
                   <h6 className="text-dark fs-6 fw-bold ">
                     READ more<i className="fa fa-long-arrow-right "></i>
                   </h6>
-                </a>
+                </span>
               </div>
             </div>
           </div>
@@ -60,11 +60,11 @@ function HealthNews() {
                   denouncing pleasure and praising pain was i born and will give
                   you a complete account more ...
                 </p>
-                <a href="#">
+                <span>
                   <h6 className="text-dark fs-6 fw-bold">
                     READ more<i className="fa fa-long-arrow-right"></i>
                   </h6>
-                </a>
+                </span>
               </div>
             </div>
           </div>
@@ -80,22 +80,22 @@ function HealthNews() {
                   NUTRITIONAL PERSONAL CONSULTATION
                 </h5>
                 <p className="card-text text-dark text-lowercase pt-2">
-                  But I must explain to you how all this i mistaken idea of denouncing
-              pleasure and praising pain was i born and will give you a complete
-              account more ...
-            </p>
-            <a>
-              <h6 className="text-dark fs-6 fw-bold">
-                READ more<i className="fa fa-long-arrow-right"></i></h6>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                    </div>
-                   
-                 );
-                 }
+                  But I must explain to you how all this i mistaken idea of
+                  denouncing pleasure and praising pain was i born and will give
+                  you a complete account more ...
+                </p>
+                <span>
+                  <h6 className="text-dark fs-6 fw-bold">
+                    READ more<i className="fa fa-long-arrow-right"></i>
+                  </h6>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-                 export default HealthNews;
+export default HealthNews;

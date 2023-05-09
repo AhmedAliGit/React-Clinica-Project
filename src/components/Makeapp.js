@@ -49,4 +49,3 @@ function MainSectionThree() {
 }
 
 export default MainSectionThree;
-

@@ -22,11 +22,11 @@ function DoctorCard() {
                 "nearest location &nbsp;" <i className="fa fa-map-marker"></i> "
                 2144.29 mi"
               </p>
-              <a>
+              <span>
                 <h6 className="text-dark px-5">
                   see details<i className="fa fa-long-arrow-right"></i>
                 </h6>
-              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -41,18 +41,19 @@ function DoctorCard() {
               <h5 className="card-title">ROBIN FIVE ROCKS</h5>
               <p className="fs-5 text-dark text-capitalize">Anethesiologist</p>
               <p className="fs-7 text-dark text-capitalize">
-                <i className="fa fa-circle reddot"></i> do not Accept new Patients
+                <i className="fa fa-circle reddot"></i> do not Accept new
+                Patients
               </p>
               <hr />
               <p className="text-dark text-capitalize">
                 "nearest location &nbsp;" <i className="fa fa-map-marker"></i> "
                 2144.29 mi"
               </p>
-              <a>
+              <span>
                 <h6 className="text-dark px-5">
                   see details<i className="fa fa-long-arrow-right"></i>
                 </h6>
-              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -74,17 +75,16 @@ function DoctorCard() {
                 "nearest location &nbsp;" <i className="fa fa-map-marker"></i> "
                 2144.29 mi"
               </p>
-              <a>
-              <h6 className="text-dark px-5">
-                see details<i className="fa fa-long-arrow-right"></i>
-              </h6>
-            </a>
+              <span>
+                <h6 className="text-dark px-5">
+                  see details<i className="fa fa-long-arrow-right"></i>
+                </h6>
+              </span>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-      </div>
-      );
+    </div>
+  );
 }
 export default DoctorCard;
-
