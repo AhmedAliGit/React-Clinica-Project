@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <section className="hero container-fluid">
-      <div className="hero-inner">
+      {/* <div className="hero-inner">
         <img
           src="https://themeatelier.net/site-templates/clinica/img/hero/hero-bg.jpg"
           alt=""
@@ -11,7 +11,7 @@ function Hero() {
         <h1 className="mt-4">
           We have Medicare plan <br /> options for you
         </h1>
-      </div>
+      </div> */}
     </section>
   );
 }
