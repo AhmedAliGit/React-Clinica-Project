@@ -2,7 +2,7 @@ import React from "react";
 
 function DoctorCard() {
   return (
-    <div className="container card-container">
+    <div className="container card-container text-center mx-5">
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card border-0">
@@ -41,8 +41,7 @@ function DoctorCard() {
               <h5 className="card-title">ROBIN FIVE ROCKS</h5>
               <p className="fs-5 text-dark text-capitalize">Anethesiologist</p>
               <p className="fs-7 text-dark text-capitalize">
-                <i className="fa fa-circle reddot"></i> do not Accept new
-                Patients
+                <i className="fa fa-circle reddot"></i> do not Accept new Patients
               </p>
               <hr />
               <p className="text-dark text-capitalize">
@@ -76,7 +75,8 @@ function DoctorCard() {
                 2144.29 mi"
               </p>
               <span>
-                <h6 className="text-dark px-5">
+                <h6 className="text-dark px-
+-5">
                   see details<i className="fa fa-long-arrow-right"></i>
                 </h6>
               </span>
