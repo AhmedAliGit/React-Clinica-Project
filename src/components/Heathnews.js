@@ -3,7 +3,7 @@ import React from "react";
 function HealthNews() {
   return (
     <div>
-      <div className="container mt-5 pt-5 text-center ml-5 px-5">
+      <div className="container mt-5 pt-5 text-center">
         <img
           src="https://themeatelier.net/site-templates/clinica/img/icons/icon-blog-title.png"
           alt=""
